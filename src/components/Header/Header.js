@@ -7,9 +7,9 @@ export default function Header({ title }) {
       <h1 title="Header" className="header">
         {title}
       </h1>
-      <h3 title="Header" className="header">
+      {/* <h3 title="Header" className="header">
         Cats
-      </h3>
+      </h3> */}
     </>
   );
 }
