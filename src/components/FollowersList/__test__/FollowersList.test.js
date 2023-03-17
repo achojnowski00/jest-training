@@ -20,6 +20,7 @@ describe("Followerslist tests", () => {
   test("should render 5 followers in list", async () => {
     render(<MockFollowersList />);
     const followersElements = await screen.findAllByTestId(/follower-item/i);
+    // screen.debug();
     expect(followersElements.length).toBe(5);
   });
 });
